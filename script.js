@@ -11,9 +11,11 @@ function ta7lil(){
     },3000)
     setTimeout( function() {
         hText.innerText = "mo3alaja..."
-    },9000)
+    },5000)
     setTimeout( function() {
         hText.innerText = `Ra9m li da5alti howa : ${box.value} 🙂`
+        progress.style.backgroundColor = "rgb(0, 255, 0)"
+        progress.style.transition = "0.2s ease"
     },20000)
 }
 
